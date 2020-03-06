@@ -163,7 +163,7 @@ body {
 }
 
 .video {
-  margin-bottom: 100px;
+  margin-top: 100px;
 }
 
 .advantages-inner__row {
@@ -201,4 +201,29 @@ body {
   width: 100%;
 }
 
+.design__images {
+  margin-bottom: 100px;
+}
+
+.design-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.design-row__item {
+  max-width: 570px;
+  width: 100%;
+  padding-right: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.design-row__item-num {
+  color: #B70021;
+}
+
+.design-row__item-text {
+  max-width: 430px;
+  padding-top: 25px;
+}
 

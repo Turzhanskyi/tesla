@@ -1,0 +1,4 @@
+# Ignore all logfiles and tempfiles.
+node_modules
+package-lock.json
+.idea
