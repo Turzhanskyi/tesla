@@ -91,6 +91,11 @@ body {
   top: 0;
   left: -100%;
   width: 100%;
+  transition: all .5s;
+}
+
+.menu.active {
+  left: 0;
 }
 
 .container-menu {
@@ -102,7 +107,7 @@ body {
   height: 50px;
   position: absolute;
   top: 31px;
-  right: 0;
+  right: 15px;
   cursor: pointer;
 }
 
